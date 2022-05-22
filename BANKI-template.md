@@ -144,14 +144,12 @@ Most of the technical questions should have a three sentence response in the EUE
     - formatting currency and dates differently
     - not concatenating translated strings, as the word order may be different
     - organizing content with the language reading direction in mind             
-  - **Use:** 
-  - **Example:**  
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
 - [ ] What are `data-` attributes good for?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Data attributes are used on elements to store custom data which relates to that application and for which there is no standard attribute. 
+  - **Example:** For example, if you wanted to sort a list of music tracks by length, you could add `data-length="#"` to each track. 
+  - **Use:** Though data attributes are used less now that frameworks exist which can store the data in JS itself, they are still useful as hooks for end-to-end testing frameworks such as Selenium.  
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions#what-are-data--attributes-good-for, https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes, https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 - [ ] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
   - **Explanation:**
   - **Use:**
