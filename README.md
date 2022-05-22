@@ -1,8 +1,8 @@
 ![Banki Header(1)](https://user-images.githubusercontent.com/100104319/169104708-b2001ad5-18ce-4f19-aa92-9246cf5b219a.jpg)
 ## How to use
-1. Fork or download the [original template](https://github.com/curtisbarnard/BANKI/blob/main/BANKI-template.md)
+1. Fork or download the [original template](https://github.com/curtisbarnard/BANKI/blob/main/BANKI-template.md) from curtisbarnard
 2. Start filling in your answers.    
-   - If you are having trouble with an answer take a look at [my completed sheet] (https://github.com/celiackelly/BANKI/blob/main/BANKI-template.md) or [Curtis's sheet] (https://github.com/celiackelly/BANKI/blob/main/BANKI-answers.md) for resources/inspiration.
+   - If you are having trouble with an answer take a look at [my completed sheet](https://github.com/celiackelly/BANKI/blob/main/BANKI-template.md) or [Curtis's sheet](https://github.com/curtisbarnard/BANKI/blob/main/BANKI-answers.md) for resources/inspiration.
 3. For each answer immediately add it to your ANKI deck and start reviewing.
 4. Review your cards everyday.
 5. Slay your interviews!
