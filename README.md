@@ -16,5 +16,5 @@
 - Once an issue is submitted feel free to work on it and create a PR.
 
 ## Attribution 
-Original bank provided by [Leon Noel via #100Devs](https://leonnoel.com/100devs/)
-Template forked from curtisbarnard
+- Original bank provided by [Leon Noel via #100Devs](https://leonnoel.com/100devs/)
+- Template forked from curtisbarnard
