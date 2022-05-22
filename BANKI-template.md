@@ -129,7 +129,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:** You can serve a page with content in multiple languages by setting the lang attribute on any tags on the page. 
   - **Use:**  First, you set the lang attribute on the root/html tag with the primary language of the content. Then for any elements in a different language, set their lang attribute to that language. 
   - **Example:** For example, if you had a page of English text with a few quotes in French, you would set `<html lang="en">` and then `<q lang="fr">` on the quotes.
-  - **Source:**
+  - **Source:** https://www.w3.org/International/questions/qa-html-language-declarations
 - [ ] What kinds of things must you be wary of when designing or developing for multilingual sites?
   - **Explanation:**
   - **Use:**
