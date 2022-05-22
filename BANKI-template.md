@@ -121,10 +121,10 @@ Most of the technical questions should have a three sentence response in the EUE
 ### HTML
 
 - [ ] What does a doctype do?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** The doctype is the required first line <!DOCTYPE html> of an HTML document. 
+  - **Use:** This line ensures that browsers will use full-standards mode when rendering the page. 
+  - **Example:** Before the development of the W3C web standards, HTML documents were written in different versions for different browsers. The doctype ensures that your document will be parsed the same way by all browsers, according to the HTML5 web standards. 
+  - **Source:** (https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode), (https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/)
 - [ ] How do you serve a page with content in multiple languages?
   - **Explanation:**
   - **Use:**
