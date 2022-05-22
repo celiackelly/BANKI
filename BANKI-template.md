@@ -134,7 +134,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:** Some issues you must be aware of when designing for multilingual sites include the inaccuracy of machine translations, the need to adjust content and assets for cultural sensitivity, and the need to organize content in a way that is intuitive for speakers of other languages. 
   - **Example:** For example, if you're designing a page in Arabic, which is written right to left, you'll want to arrange the navigation and menu options in reverse order from a typical page in English. You may also need to avoid images of women with loose hair and exposed skin, as this could be offensive to an Arabic audience.   
   - **Source:** https://www.popwebdesign.net/popart_blog/en/2018/01/multilingual-website-design-mistakes/
-- [ ] What kinds of things must you be wary of when DEVELOPING for multilingual sites?
+- [x] What kinds of things must you be wary of when DEVELOPING for multilingual sites?
   - **Explanation:** Some issues you must be aware of when developing for multilingual sites include:
     - using the lang attribute in your HTML (though you should always do this anyway) 
     - having menu options that allow the user to change the language of the page
@@ -145,7 +145,7 @@ Most of the technical questions should have a three sentence response in the EUE
     - not concatenating translated strings, as the word order may be different
     - organizing content with the language reading direction in mind             
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
-- [ ] What are `data-` attributes good for?
+- [x] What are `data-` attributes good for?
   - **Explanation:** Data attributes are used on elements to store custom data which relates to that application and for which there is no standard attribute. 
   - **Example:** For example, if you wanted to sort a list of music tracks by length, you could add `data-length="#"` to each track. 
   - **Use:** Though data attributes are used less now that frameworks exist which can store the data in JS itself, they are still useful as hooks for end-to-end testing frameworks such as Selenium.  
