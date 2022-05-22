@@ -120,21 +120,33 @@ Most of the technical questions should have a three sentence response in the EUE
 
 ### HTML
 
-- [ ] What does a doctype do?
+- [x] What does a doctype do?
   - **Explanation:** The doctype is the required first line <!DOCTYPE html> of an HTML document. 
   - **Use:** This line ensures that browsers will use full-standards mode when rendering the page. 
   - **Example:** Before the development of the W3C web standards, HTML documents were written in different versions for different browsers. The doctype ensures that your document will be parsed the same way by all browsers, according to the HTML5 web standards. 
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode, https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
-- [ ] How do you serve a page with content in multiple languages?
+- [x] How do you serve a page with content in multiple languages?
   - **Explanation:** You can serve a page with content in multiple languages by setting the lang attribute on any tags on the page. 
   - **Use:**  First, you set the lang attribute on the root/html tag with the default language of the content, so that it is inherited by the child elements. Then for any elements in a different language, set their lang attribute to that language. 
   - **Example:** For example, if you had a page of English text with a few quotes in French, you would set `<html lang="en">` and then `<q lang="fr">` on the quotes.
   - **Source:** https://www.w3.org/International/questions/qa-html-language-declarations
-- [ ] What kinds of things must you be wary of when designing or developing for multilingual sites?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What kinds of things must you be wary of when DESIGNING for multilingual sites?
+  - **Explanation:** Some issues you must be aware of when designing for multilingual sites include the inaccuracy of machine translations, the need to adjust content and assets for cultural sensitivity, and the need to organize content in a way that is intuitive for speakers of other languages. 
+  - **Example:** For example, if you're designing a page in Arabic, which is written right to left, you'll want to arrange the navigation and menu options in reverse order from a typical page in English. You may also need to avoid images of women with loose hair and exposed skin, as this could be offensive to an Arabic audience.   
+  - **Source:** https://www.popwebdesign.net/popart_blog/en/2018/01/multilingual-website-design-mistakes/
+- [ ] What kinds of things must you be wary of when DEVELOPING for multilingual sites?
+  - **Explanation:** Some issues you must be aware of when developing for multilingual sites include:
+    - using the lang attribute in your HTML (though you should always do this anyway) 
+    - having menu options that allow the user to change the language of the page
+    - avoiding placing text in raster-based images (e.g. png, jpg, gif), as each language will need a separate image
+    - designing layouts and components that won't break if the translated text is much longer
+    - being aware of differing perceptions of color
+    - formatting currency and dates differently
+    - not concatenating translated strings, as the word order may be different
+    - organizing content with the language reading direction in mind             
+  - **Use:** 
+  - **Example:**  
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
 - [ ] What are `data-` attributes good for?
   - **Explanation:**
   - **Use:**
