@@ -126,9 +126,9 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** Before the development of the W3C web standards, HTML documents were written in different versions for different browsers. The doctype ensures that your document will be parsed the same way by all browsers, according to the HTML5 web standards. 
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode, https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
 - [ ] How do you serve a page with content in multiple languages?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+  - **Explanation:** You can serve a page with content in multiple languages by setting the lang attribute on any tags on the page. 
+  - **Use:**  First, you set the lang attribute on the root/html tag with the primary language of the content. Then for any elements in a different language, set their lang attribute to that language. 
+  - **Example:** For example, if you had a page of English text with a few quotes in French, you would set `<html lang="en">` and then `<q lang="fr">` on the quotes.
   - **Source:**
 - [ ] What kinds of things must you be wary of when designing or developing for multilingual sites?
   - **Explanation:**
