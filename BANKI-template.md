@@ -153,14 +153,14 @@ Most of the technical questions should have a three sentence response in the EUE
 - [ ] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
   - **Explanation:** HTML5 is the newest version of the free and open source technologies on which the web is based, including HTML and web APIs. 
   - **Use:** The building blocks or new features of HTML5 include:
-    - semantics - new elements to more precisely describe your content (ex: `<main>`, `<section>`, `<nav>`)  
+    - semantics - new elements to more precisely describe content (ex: `<main>`, `<section>`, `<nav>`)  
     - offline and client-side storage (ex: local storage and session storage)
-    - native audio and video support 
-    - 2D/3D graphics
-    - device access - support for various inputs and outputs
-    - styling
+    - native audio and video support ()
+    - native support for dynamic 2D/3D graphics through the `<canvas>` element
+    - access to new input and output devices (ex: cameras, microphones, screen sharing)
     - better performance and hardware integration
     - connectivity - new ways to communicate with the server
+    - more sophisticated styling
   - **Example:**
   - **Source:** https://www.w3.org/wiki/Open_Web_Platform, https://developer.mozilla.org/en-US/docs/glossary/html5, https://www.frontendinterviewhandbook.com/html-questions#consider-html5-as-an-open-web-platform-what-are-the-building-blocks-of-html5
 - [ ] Describe the difference between a cookie, sessionStorage and localStorage.
