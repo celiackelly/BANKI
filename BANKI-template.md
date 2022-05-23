@@ -124,7 +124,9 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:** The doctype is the required first line <!DOCTYPE html> of an HTML document. 
   - **Use:** This line ensures that browsers will use full-standards mode when rendering the page. 
   - **Example:** Before the development of the W3C web standards, HTML documents were written in different versions for different browsers. The doctype ensures that your document will be parsed the same way by all browsers, according to the HTML5 web standards. 
-  - **Source:** https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode, https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
+  - **Source:** 
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode
+    - https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
 - [x] How do you serve a page with content in multiple languages?
   - **Explanation:** You can serve a page with content in multiple languages by setting the lang attribute on any tags on the page. 
   - **Use:**  First, you set the lang attribute on the root/html tag with the default language of the content, so that it is inherited by the child elements. Then for any elements in a different language, set their lang attribute to that language. 
@@ -149,7 +151,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:** Data attributes are used on elements to store custom data which relates to that application and for which there is no standard attribute. 
   - **Example:** For example, if you wanted to sort a list of music tracks by length, you could add `data-length="#"` to each track. 
   - **Use:** Though data attributes are used less now that frameworks exist which can store the data in JS itself, they are still useful as hooks for end-to-end testing frameworks such as Selenium.  
-  - **Source:** https://www.frontendinterviewhandbook.com/html-questions#what-are-data--attributes-good-for, https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes, https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+  - **Source:** 
+    - https://www.frontendinterviewhandbook.com/html-questions#what-are-data--attributes-good-for
+    - https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes
+    - https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 - [X] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
   - **Explanation:** HTML5 is the newest version of the free and open source technologies on which the web is based, including HTML and web APIs. 
   - **Use:** The building blocks or new features of HTML5 include:
@@ -162,7 +167,10 @@ Most of the technical questions should have a three sentence response in the EUE
     - connectivity - new ways to communicate with the server
     - more sophisticated styling
   - **Example:**
-  - **Source:** https://www.w3.org/wiki/Open_Web_Platform, https://developer.mozilla.org/en-US/docs/glossary/html5, https://www.frontendinterviewhandbook.com/html-questions#consider-html5-as-an-open-web-platform-what-are-the-building-blocks-of-html5, https://www.thoughtco.com/why-use-html5-canvas-3467995#:~:text=According%20to%20the%20HTML5%20specification,web%20page%20in%20real%2Dtime.
+  - **Source:** 
+     - https://www.w3.org/wiki/Open_Web_Platform, https://developer.mozilla.org/en-US/docs/glossary/html5
+     - https://www.frontendinterviewhandbook.com/html-questions#consider-html5-as-an-open-web-platform-what-are-the-building-blocks-of-html5
+     - https://www.thoughtco.com/why-use-html5-canvas-3467995#:~:text=According%20to%20the%20HTML5%20specification,web%20page%20in%20real%2Dtime.
 - [ ] Describe the difference between a cookie, sessionStorage and localStorage.
   - **Explanation:**
   - **Use:**
