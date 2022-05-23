@@ -150,7 +150,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** For example, if you wanted to sort a list of music tracks by length, you could add `data-length="#"` to each track. 
   - **Use:** Though data attributes are used less now that frameworks exist which can store the data in JS itself, they are still useful as hooks for end-to-end testing frameworks such as Selenium.  
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions#what-are-data--attributes-good-for, https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes, https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
-- [ ] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+- [X] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
   - **Explanation:** HTML5 is the newest version of the free and open source technologies on which the web is based, including HTML and web APIs. 
   - **Use:** The building blocks or new features of HTML5 include:
     - semantics - new elements to more precisely describe content (ex: `<main>`, `<section>`, `<nav>`)  
@@ -162,7 +162,7 @@ Most of the technical questions should have a three sentence response in the EUE
     - connectivity - new ways to communicate with the server
     - more sophisticated styling
   - **Example:**
-  - **Source:** https://www.w3.org/wiki/Open_Web_Platform, https://developer.mozilla.org/en-US/docs/glossary/html5, https://www.frontendinterviewhandbook.com/html-questions#consider-html5-as-an-open-web-platform-what-are-the-building-blocks-of-html5
+  - **Source:** https://www.w3.org/wiki/Open_Web_Platform, https://developer.mozilla.org/en-US/docs/glossary/html5, https://www.frontendinterviewhandbook.com/html-questions#consider-html5-as-an-open-web-platform-what-are-the-building-blocks-of-html5, https://www.thoughtco.com/why-use-html5-canvas-3467995#:~:text=According%20to%20the%20HTML5%20specification,web%20page%20in%20real%2Dtime.
 - [ ] Describe the difference between a cookie, sessionStorage and localStorage.
   - **Explanation:**
   - **Use:**
