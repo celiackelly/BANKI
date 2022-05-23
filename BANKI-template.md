@@ -151,10 +151,18 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** Though data attributes are used less now that frameworks exist which can store the data in JS itself, they are still useful as hooks for end-to-end testing frameworks such as Selenium.  
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions#what-are-data--attributes-good-for, https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes, https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 - [ ] Consider HTML5 as an open web platform. What are the building blocks of HTML5?
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** HTML5 is the newest version of the free and open source technologies on which the web is based, including HTML and web APIs. 
+  - **Use:** The building blocks or new features of HTML5 include:
+    - semantics - new elements to more precisely describe your content (ex: `<main>`, `<section>`, `<nav>`)  
+    - offline and client-side storage (ex: local storage and session storage)
+    - native audio and video support 
+    - 2D/3D graphics
+    - device access - support for various inputs and outputs
+    - styling
+    - better performance and hardware integration
+    - connectivity - new ways to communicate with the server
   - **Example:**
-  - **Source:**
+  - **Source:** https://www.w3.org/wiki/Open_Web_Platform, https://developer.mozilla.org/en-US/docs/glossary/html5, https://www.frontendinterviewhandbook.com/html-questions#consider-html5-as-an-open-web-platform-what-are-the-building-blocks-of-html5
 - [ ] Describe the difference between a cookie, sessionStorage and localStorage.
   - **Explanation:**
   - **Use:**
