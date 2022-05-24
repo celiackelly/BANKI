@@ -172,8 +172,8 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://www.frontendinterviewhandbook.com/html-questions#consider-html5-as-an-open-web-platform-what-are-the-building-blocks-of-html5
      - https://www.thoughtco.com/why-use-html5-canvas-3467995#:~:text=According%20to%20the%20HTML5%20specification,web%20page%20in%20real%2Dtime.
 - [ ] Describe the difference between a cookie, sessionStorage and localStorage.
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** Cookies, sessionStorage, and localStorage are all ways to store data on the client side. However, cookies are sent back to the server with each subsequent HTTP request, whereas sessionStorage and localStorage are not. Additionally, localStorage persists across browser sessions, whereas sessionStorage is cleared once the user closes that tab. 
+  - **Use:** A use case for 
   - **Example:**
   - **Source:**
 - [ ] Describe the difference between `<script>, <script async> and <script defer>`.
