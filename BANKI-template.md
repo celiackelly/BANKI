@@ -171,7 +171,7 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://www.w3.org/wiki/Open_Web_Platform, https://developer.mozilla.org/en-US/docs/glossary/html5
      - https://www.frontendinterviewhandbook.com/html-questions#consider-html5-as-an-open-web-platform-what-are-the-building-blocks-of-html5
      - https://www.thoughtco.com/why-use-html5-canvas-3467995#:~:text=According%20to%20the%20HTML5%20specification,web%20page%20in%20real%2Dtime.
-- [ ] Describe the difference between a cookie, sessionStorage and localStorage.
+- [X] Describe the difference between a cookie, sessionStorage and localStorage.
   - **Explanation:** Cookies, sessionStorage, and localStorage are all ways to store string data on the client side. However, cookies are sent back to the server with each subsequent HTTP request, whereas sessionStorage and localStorage are not. 
   - **Use/Example:** Cookies are typically used for remembering stateful information, such as whether two requests came from the same browser. For example, cookies might be used to remember a user's shopping cart contents, set user preferences, or track user behavior.
   - **Use/Explanation:** Local storage differs from session storage in that localStorage persists across browser sessions, but sessionStorage is cleared once the user closes that tab. 
@@ -184,7 +184,9 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:**
   - **Use:**
   - **Example:**
-  - **Source:**
+  - **Source:** 
+    - https://javascript.info/script-async-defer
+    - https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html#script 
 - [ ] Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
   - **Explanation:**
   - **Use:**
