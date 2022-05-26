@@ -180,18 +180,21 @@ Most of the technical questions should have a three sentence response in the EUE
     - https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#other_ways_to_store_information_in_the_browser
     - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
     - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_is_stateless_but_not_sessionless 
-- [ ] Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+- [X] Describe the difference between `<script>`, `<script async>` and `<script defer>`.
   - **Explanation:** When execution reaches a plain `<script>` tag, the browser stops parsing the HTML, fetches the script file, and executes it before it resumes parsing the HTML. This causes two problems: 1) the script can't access any DOM elements that have not been parsed yet, and 2) the user can't see the rest of the page content until the script is finished. 
   - **Use:** `<script defer>` and `<script async>` are solutions to these problems. `<script defer>` downloads the scripts in the background and then executes the scripts in document order once the HTML document has been loaded and parsed. `<script async>` downloads the scripts in the background and then pauses the HTML to execute each script as it finishes loading. 
   - **Example:** `<script defer>` should be used for scripts which need the whole DOM or are dependent on each other, where `<script async>` should be used for completely independent scripts, like ads or Google Analytics.  
   - **Source:** 
     - https://javascript.info/script-async-defer
     - https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html#script 
-- [ ] Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [X] Why is it generally a good idea to position CSS `<link>`s within `<head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+  - **Explanation:** Placing CSS '<link>`s in the `<head>` allows the page to render progressively, which improves user experience. If `<link>`s are placed at the bottom of the document, some browsers block rendering so that elements do not need to be repainted if their styles change. Users will be stuck looking at a blank page or seeing flashes of unstyled content. The W3C standards specify that CSS `<link>`s should be placed in the `<head>`. 
+  - **Example (Exception):** Two exceptions are HTML email, which uses inline styles, as it does not have access to external stylesheets, and critical path CSS, where the styles needed for generating the content above the fold are put directly into a `<style>` tag in the head. 
+  - **Explanation:** Placing JS `<script>`s just before the closing `</body>` tag is a often good idea because it allows the browser to display the page content to the user first, without waiting for the `<script>` to load and execute. It also allows the script to access DOM elements without throwing an error.
+  - **Example (Exception):** A downside to this approach is that the browser cannot start downloading the scripts until the entire document is parsed. A solution is to place the scripts in the <head> with the defer attribute. 
+  - **Source:** 
+    - https://codeburst.io/clearing-your-front-end-job-interview-html-706f8b2c7dca
+    - https://www.frontendinterviewhandbook.com/html-questions#why-is-it-generally-a-good-idea-to-position-css-links-between-headhead-and-js-scripts-just-before-body-do-you-know-any-exceptions
 - [ ] What is progressive rendering?
   - **Explanation:**
   - **Use:**
