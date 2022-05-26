@@ -180,10 +180,10 @@ Most of the technical questions should have a three sentence response in the EUE
     - https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#other_ways_to_store_information_in_the_browser
     - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
     - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_is_stateless_but_not_sessionless 
-- [ ] Describe the difference between `<script>, <script async> and <script defer>`.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [ ] Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+  - **Explanation:** When execution reaches a plain `<script>` tag, the browser stops parsing the HTML, fetches the script file, and executes it before it resumes parsing the HTML. This causes two problems: 1) the script can't access any DOM elements that have not been parsed yet, and 2) the user can't see the rest of the page content until the script is finished. 
+  - **Use:** `<script defer>` and `<script async>` are solutions to these problems. `<script defer>` downloads the scripts in the background and then executes the scripts in document order once the HTML document has been loaded and parsed. `<script async>` downloads the scripts in the background and then pauses the HTML to execute each script as it finishes loading. 
+  - **Example:** `<script defer>` should be used for scripts which need the whole DOM or are dependent on each other, where `<script async>` should be used for completely independent scripts, like ads or Google Analytics.  
   - **Source:** 
     - https://javascript.info/script-async-defer
     - https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html#script 
