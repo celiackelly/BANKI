@@ -195,7 +195,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:** 
     - https://codeburst.io/clearing-your-front-end-job-interview-html-706f8b2c7dca
     - https://www.frontendinterviewhandbook.com/html-questions#why-is-it-generally-a-good-idea-to-position-css-links-between-headhead-and-js-scripts-just-before-body-do-you-know-any-exceptions
-- [ ] What is progressive rendering?
+- [X] What is progressive rendering?
   - **Explanation:** Progressive rendering refers to rendering the most critical content on the page first, and then rendering the non-critical content in stages, as needed by the user. 
   - **Use:** Progressive rendering is used to reduce the perceived load time of the page. 
   - **Example:** Techniques for progressive rendering include lazy loading of images (i.e. images do not load until the user scrolls to them), prioritizing "above the fold" content, and rendering critical content on the server and streaming it in chunks to the browser. 
@@ -203,10 +203,13 @@ Most of the technical questions should have a three sentence response in the EUE
     - https://stackoverflow.com/questions/33651166/what-is-progressive-rendering
     - https://medium.com/the-thinkmill/progressive-rendering-the-key-to-faster-web-ebfbbece41a4#:%7E:text=Progressive%20Rendering%20is%20the%20technique,the%20whole%20page%20to%20rendered.
 - [ ] Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** 
+  - **Use:** 
   - **Example:**
   - **Source:**
+    - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+    - https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
+    - https://cloudfour.com/thinks/responsive-images-101-definitions/
 - [ ] Have you used different HTML templating languages before?
   - **Explanation:**
   - **Use:**
