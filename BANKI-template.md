@@ -204,7 +204,7 @@ Most of the technical questions should have a three sentence response in the EUE
     - https://medium.com/the-thinkmill/progressive-rendering-the-key-to-faster-web-ebfbbece41a4#:%7E:text=Progressive%20Rendering%20is%20the%20technique,the%20whole%20page%20to%20rendered.
 - [ ] Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
   - **Explanation:** 
-  - **Use:** 
+  - **Use:** resolution switching problem and art direction problem
   - **Example:**
   - **Source:**
     - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
