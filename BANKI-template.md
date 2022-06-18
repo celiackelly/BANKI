@@ -265,10 +265,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:** https://css-tricks.com/snippets/css/clear-fix/
   
 - [ ] Explain CSS sprites, and how you would implement them on a page or site.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** CSS sprites are a way of combining multiple images into one image file, and then using the background-image and -position properties to display a part of the image each time. 
+  - **Use:** They are used to increase performance, since you only need to download one image, rather than multiple images. 
+  - **Example:** Image sprites are a great technique for small icons or a graphical text-editor menu. 
+  - **Source:** https://css-tricks.com/css-sprites/
 - [ ] How would you approach fixing browser-specific styling issues?
   - **Explanation:**
   - **Use:**
