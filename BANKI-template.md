@@ -253,7 +253,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:** One technique for clearing floats is the .clearfix hack. 
   - **Use:** The .clearfix hack works by inserting an element with no content just inside the closing tag of the parent container so that it can't collapse, and setting clear: both on this element.   
   
-```  
+```css  
         .clearfix:after {
             content: "";
             display: table;
