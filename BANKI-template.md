@@ -225,10 +225,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** For example, the selector .main #hero-image would have a specificity of 1.1.0. 
   - **Explanation:** The browser calculates the specificity for each declaration that matches the element, and the declaration with the highest specificity is applied, or in case of a tie, the declaration that comes last in the stylesheet. 
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
-- [ ] What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+  - **Explanation:** A CSS reset clears out all of the browser's default styling so that you can start from scratch. A "normalizing" stylesheet changes the default styles of different browsers to match each other. 
+  - **Use:** Both of these solutions are used to make styles appear consisent across browsers. 
+  - **Example:** I generally prefer to use the "normalizing" approach, to take advantage of some useful default styling, speed development, and keep my file size smaller. 
   - **Source:**
 - [ ] Describe floats and how they work.
   - **Explanation:**
