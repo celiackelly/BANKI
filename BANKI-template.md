@@ -244,10 +244,11 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://www.frontendinterviewhandbook.com/css-questions/#describe-z-index-and-how-stacking-context-is-formed
      - https://www.oreilly.com/library/view/developing-web-components/9781491905685/ch04.html#:~:text=A%20stacking%20context%20is%20created,z%2Dindex%20value%20is%20auto%20.
 - [ ] Describe BFC (Block Formatting Context) and how it works.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** In the CSS rendering of a page, Block Formatting Context is a region in which blocks are laid out. New BFCs are created by floats, fixed or absolutely positioned elements, inline-blocks, table-cells, elements with overflow other than visible, and elements with display: flow-root.  
+  - **Use:** A BFC is like a mini-layout inside your page, and it's important because contains any floats inside it and prevents margin-collapsing. 
+  - **Example:** For example, if you needed to contain a floated box inside a parent container, you could eatablish a new BFC by setting display: flow-root on the container. 
+  - **Source:** https://www.smashingmagazine.com/2017/12/understanding-css-layout-block-formatting-context/
+     - https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context 
 - [ ] What are the various clearing techniques and which is appropriate for what context?
   - **Explanation:**
   - **Use:**
