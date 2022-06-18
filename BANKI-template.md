@@ -219,11 +219,12 @@ Most of the technical questions should have a three sentence response in the EUE
 
 ### CSS
 
-- [ ] What is CSS selector specificity and how does it work?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What is CSS selector specificity and how does it work?
+  - **Explanation:** CSS selector specificity is how the browser determines which styles to apply to an element. 
+  - **Use:** The specificity weight of a declaration is determined by the number of selectors of each weight category: id selectors, class selectors, and tag selectors. Id selectors have the highest weight, while tag selectors have the lowest weight. 
+  - **Example:** For example, the selector .main #hero-image would have a specificity of 1.1.0. 
+  - **Explanation:** The browser calculates the specificity for each declaration that matches the element, and the declaration with the highest specificity is applied, or in case of a tie, the declaration that comes last in the stylesheet. 
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 - [ ] What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
   - **Explanation:**
   - **Use:**
