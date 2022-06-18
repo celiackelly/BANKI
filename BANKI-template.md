@@ -202,11 +202,12 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:**
     - https://stackoverflow.com/questions/33651166/what-is-progressive-rendering
     - https://medium.com/the-thinkmill/progressive-rendering-the-key-to-faster-web-ebfbbece41a4#:%7E:text=Progressive%20Rendering%20is%20the%20technique,the%20whole%20page%20to%20rendered.
-- [ ] Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
-  - **Explanation:** 
-  - **Use:** resolution switching problem and art direction problem
-  - **Example:**
+- [x] Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+  - **Explanation:** The srcset attribute allows you to specify multiple image files that the browser can choose from when displaying that image. 
+  - **Use:** You would use this attribute when you need to display the same image in different sizes, depending on the size and resolution of the screen.
+  - **Example:** When evaluating this attribute, the browser divides the width of each image by the screen's width to determines which image is the best size for the current screen. 
   - **Source:**
+    - resolution switching problem (use srcset) vs. art direction problem (use <picture>)
     - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
     - https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
     - https://cloudfour.com/thinks/responsive-images-101-definitions/
