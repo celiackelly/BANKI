@@ -211,10 +211,10 @@ Most of the technical questions should have a three sentence response in the EUE
     - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
     - https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
     - https://cloudfour.com/thinks/responsive-images-101-definitions/
-- [ ] Have you used different HTML templating languages before?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] Have you used different HTML templating languages before?
+  - **Explanation:** I've used primarily EJS in my fullstack applications to generate HTML dynamically.  
+  - **Use:** At my previous job, I also used templated HTML in Google Apps Script, to build a spreadsheet add-on for managing student recommendations. 
+  - **Example:** I love EJS for its simple syntax, but I've found that most HTML templating languages provide similar functionality.  
   - **Source:**
 
 ### CSS
