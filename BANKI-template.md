@@ -236,12 +236,13 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** Floats come with several problems. For instance, a parent element will collapse to zero height if it contains only floated elements, and elements around the float can also be affected by it. Flexbox and grid are better tools for creating flexible layouts. 
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/#describe-floats-and-how-they-work
 - [x] Describe z-index and how stacking context is formed.
-  - **Explanation:** Z-index controls the vertical stacking order of overlapping elements. It can only be set on positioned elements (i.e. position: relative, absolute, fixed, etc). 
-  - **Use:** By default, elements stack in the order they appear in the DOM, but the z-index property allows us to change this behavior. 
-  - **Example:** A stacking context is basically an element that contains multiple layers. The children inside each stacking context are ordered relative to their parent, before that stacking context is in turn arranged relative to any outer stacking contexts. 
+  - **Explanation:** Z-index controls the vertical stacking order of overlapping elements. 
+  - **Use:** By default, elements stack vertically in the order they appear in the DOM, but the z-index property allows us to change this behavior. 
+  - **Example:** Stacking contexts are created by the root <html> element, when an element is positioned and given a z-index value other than auto, or when an element has an opacity of less than 1. Stacking contexts create a separate layer. The children inside each stacking context are ordered relative to their parent, before that layer is in turn arranged relative to any outer stacking contexts. 
   - **Source:** 
      - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
      - https://www.frontendinterviewhandbook.com/css-questions/#describe-z-index-and-how-stacking-context-is-formed
+     - https://www.oreilly.com/library/view/developing-web-components/9781491905685/ch04.html#:~:text=A%20stacking%20context%20is%20created,z%2Dindex%20value%20is%20auto%20.
 - [ ] Describe BFC (Block Formatting Context) and how it works.
   - **Explanation:**
   - **Use:**
