@@ -235,11 +235,13 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** They were often used to make flexible column layouts, as well as to make text wrap naturally around an image. 
   - **Example:** Floats come with several problems. For instance, a parent element will collapse to zero height if it contains only floated elements, and elements around the float can also be affected by it. Flexbox and grid are better tools for creating flexible layouts. 
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/#describe-floats-and-how-they-work
-- [ ] Describe z-index and how stacking context is formed.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
+- [x] Describe z-index and how stacking context is formed.
+  - **Explanation:** Z-index controls the vertical stacking order of overlapping elements. It can only be set on positioned elements (i.e. position: relative, absolute, fixed, etc). 
+  - **Use:** By default, elements stack in the order they appear in the DOM, but the z-index property allows us to change this behavior. 
+  - **Example:** A stacking context is basically an element that contains multiple layers. The children inside each stacking context are ordered relative to their parent, before that stacking context is in turn arranged relative to any outer stacking contexts. 
+  - **Source:** 
+     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
+     - https://www.frontendinterviewhandbook.com/css-questions/#describe-z-index-and-how-stacking-context-is-formed
 - [ ] Describe BFC (Block Formatting Context) and how it works.
   - **Explanation:**
   - **Use:**
