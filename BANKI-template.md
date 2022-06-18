@@ -230,16 +230,16 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** Both of these solutions are used to make styles appear consisent across browsers. 
   - **Example:** I generally prefer to use the "normalizing" approach, to take advantage of some useful default styling, speed development, and keep my file size smaller. 
   - **Source:**
-- [ ] Describe floats and how they work.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] Describe floats and how they work.
+  - **Explanation:** Float is a CSS positioning property that moves an element to the right or left and allows other elements to flow around it. 
+  - **Use:** They were often used to make flexible column layouts, as well as to make text wrap naturally around an image. 
+  - **Example:** Floats come with several problems. For instance, a parent element will collapse to zero height if it contains only floated elements, and elements around the float can also be affected by it. Flexbox and grid are better tools for creating flexible layouts. 
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions/#describe-floats-and-how-they-work
 - [ ] Describe z-index and how stacking context is formed.
   - **Explanation:**
   - **Use:**
   - **Example:**
-  - **Source:**
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
 - [ ] Describe BFC (Block Formatting Context) and how it works.
   - **Explanation:**
   - **Use:**
