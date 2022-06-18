@@ -272,11 +272,9 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Have you ever used a grid system, and if so, what do you prefer?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] Have you ever used a grid system, and if so, what do you prefer?
+  - **Explanation:** Yes, I have created grid layouts with floats, flexbox, and CSS grid. 
+  - **Use:** I prefer using grid for the overall layout of the page, since it allows you to more precisely place elements along both axes. I like to use flexbox for building smaller components, which can in turn be positioned on the page using grid. 
 - [ ] Have you used or implemented media queries or mobile specific layouts/CSS?
   - **Explanation:**
   - **Use:**
