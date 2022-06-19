@@ -355,12 +355,12 @@ Most of the technical questions should have a three sentence response in the EUE
 - [x] Explain how a browser determines what elements match a CSS selector.
   - **Explanation:** The broswer parses a CSS selector from right to left. It first finds all the elements that match the key selector. Then for the prequalifiesr, it traverses up it the elements' parents in the DOM to determine which elements match. 
   - **Example:** For example with the selector `p span`, browsers first find all the `<span>` elements and traverse up their parents all the way up to the root to find any `<p>` elements. For a particular `<span>`, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
-  - **Source:** https://www.frontendinterviewhandbook.com/css-questions#explain-how-a-browser-determines-what-elements-match-a-css-selector
   - **Use:** This is why it is so important to use short selector chains and avoid key selectors that match many elements (like tags and *). 
-- [ ] Describe pseudo-elements and discuss what they are used for.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions#explain-how-a-browser-determines-what-elements-match-a-css-selector
+- [x] Describe pseudo-elements and discuss what they are used for.
+  - **Explanation:** Pseudo-elements are keywords added to a CSS selector that let you style a particular part of the selector or add content that is not in the HTML. 
+  - **Use:** They include `:first-letter`, `first-line`, `::before` and `::after`.  
+  - **Example:** For example, if you wanted to make the first letter in each paragraph larger, you could use `p:first-letter`. If you wanted to add decorative icons without cluttering the document tree with unsemantic elements, you could use `::before` to insert them. 
   - **Source:**
 - [ ] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
   - **Explanation:**
