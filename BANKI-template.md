@@ -332,7 +332,7 @@ Most of the technical questions should have a three sentence response in the EUE
      - BEM Metholodology - "Block, Element, Modifier" - https://en.bem.info/methodology/quick-start/
      - https://web.dev/rendering-performance/
      - https://developers.google.com/speed/docs/insights/browser-reflow
-- [ ] What are the advantages/disadvantages of using CSS preprocessors?
+- [x] What are the advantages/disadvantages of using CSS preprocessors?
   - **Explanation:** CSS preprocessors have a lot of useful features, like the ability to use variables, math operations, and mixins (to define reusable styles), as well as the ability to organize styles into multiple files and combine them later. 
   - **Use:** These features can make CSS faster to write and easier to maintain and organize. 
   - **Example:** For example, by using variables, you can change a color in one place instead of having to change it everywhere. 
@@ -346,11 +346,12 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] How would you implement a web design comp that uses non-standard fonts?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] How would you implement a web design comp that uses non-standard fonts?
+  - **Note:** web design comp = web design comprehensive = a mock-up 
+  - **Explanation:** I would implement non-standard fonts by using the `@font-face` CSS rule and defining the weights needed for that font. 
+  - **Use:** This approach will load the font from the server if the user does not have it installed on their computer. I would also be sure to define font fallbacks in the `font-family` property, in case for some reason the font files were blocked from downloading.
+  - **Example:** You can also implement some non-standard fonts by linking a Google font stylesheet in the head of your HTML. 
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
 - [ ] Explain how a browser determines what elements match a CSS selector.
   - **Explanation:**
   - **Use:**
