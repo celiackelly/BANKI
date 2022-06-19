@@ -363,12 +363,12 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** For example, if you wanted to make the first letter in each paragraph larger, you could use `p:first-letter`. If you wanted to add decorative icons without cluttering the document tree with unsemantic elements, you could use `::before` to insert them. 
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions#describe-pseudo-elements-and-discuss-what-they-are-used-for
 - [ ] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
-  - **Explanation:**
+  - **Explanation:** In the box model, every element on the page, no matter its shape, is represented as a rectangular box.
   - **Use:**
   - **Example:**
   - **Source:**
 - [ ] What does `* { box-sizing: border-box; }` do? What are its advantages?
-  - **Explanation:**
+  - **Explanation:**  In the default content-box setting, only an element's base height or width is taken into account when caluculating its size. 
   - **Use:**
   - **Example:**
   - **Source:**
