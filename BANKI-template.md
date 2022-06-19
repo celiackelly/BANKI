@@ -306,14 +306,14 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** I like to use flexbox for building smaller components, which can in turn be positioned on the page using CSS grid. I prefer using grid for the overall layout of the page, since it allows you to more precisely place elements along both axes. 
   - **Example:** Grid also allows you to easily create very different layouts for different breakpoints. 
 - [x] Have you used or implemented media queries or mobile specific layouts/CSS?
-  - **Explanation:** Yes, I use media queries and mobile-specific layouts all the time to make my pages responsive. 
-  - **Example:** For example, I often move the navigation bar inside a hamburger menu below a certain breakpoint, or change the flex-direction of a card container from column on mobile to row on desktop. 
-  - **Source:**
-- [ ] Are you familiar with styling SVG?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** Yes, I use media queries and mobile-specific layouts on every site I build, to make my pages responsive. 
+  - **Use:** I typically design for mobile first, locate the breakpoints, and use media queries to convert the layout from mobile to desktop. 
+  - **Example:** For example, I often move the navigation bar inside a hamburger menu below a certain breakpoint, or change the flex-direction of a card container from row on desktop to column on mobile. 
+- [x] Are you familiar with styling SVG?
+  - **Explanation:** Yes, I am. SVGs can be styled by adding attributes to a node, using inline CSS, embedding a CSS section in a <style> tag in the definitions section, or linking external CSS files.
+  - **Use:** I have edited logos and icons by using the `fill` and `stroke` attributes to change colors. 
+  - **Example:** <rect width="100" height="100" stroke="blue" fill="purple" />
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes  
 - [ ] Can you give an example of an `@media` property other than screen?
   - **Explanation:**
   - **Use:**
