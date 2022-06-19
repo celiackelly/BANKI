@@ -352,11 +352,11 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** This approach will load the font from the server if the user does not have it installed on their computer. I would also be sure to define font fallbacks in the `font-family` property, in case for some reason the font files were blocked from downloading.
   - **Example:** You can also implement some non-standard fonts by linking a Google font stylesheet in the head of your HTML. 
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
-- [ ] Explain how a browser determines what elements match a CSS selector.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] Explain how a browser determines what elements match a CSS selector.
+  - **Explanation:** The broswer parses a CSS selector from right to left. It first finds all the elements that match the key selector. Then for the prequalifiesr, it traverses up it the elements' parents in the DOM to determine which elements match. 
+  - **Example:** For example with the selector `p span`, browsers first find all the `<span>` elements and traverse up their parents all the way up to the root to find any `<p>` elements. For a particular `<span>`, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions#explain-how-a-browser-determines-what-elements-match-a-css-selector
+  - **Use:** This is why it is so important to use short selector chains and avoid key selectors that match many elements (like tags and *). 
 - [ ] Describe pseudo-elements and discuss what they are used for.
   - **Explanation:**
   - **Use:**
