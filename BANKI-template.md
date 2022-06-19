@@ -280,10 +280,27 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS#common_cross_browser_problems
      - https://www.frontendinterviewhandbook.com/css-questions#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use
 - [ ] What are the different ways to visually hide content (and make it available only for screen readers)?
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** There are several ways to hide content visually but keep it accessible for screen readers. For instance, you can position it absolutely off screen (`left: -1000px; top: -1000px;`), set its height and width to 0, or use the clip property (`clip: rect(0, 0, 0, 0)`).
+  - **Use:** I prefer to define a "visually hidden" class that combines all of the various solutions, to make sure that it works in all browsers. 
   - **Example:**
-  - **Source:**
+  
+```
+  .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap; /* added line */
+      border: 0;
+  }
+  
+```
+  
+  - **Source:** https://a11y-guidelines.orange.com/en/web/components-examples/accessible-hiding/
+  
 - [x] Have you ever used a grid system, and if so, what do you prefer?
   - **Explanation:** Yes, I have created grid layouts with floats, flexbox, and CSS grid. 
   - **Use:** I prefer using grid for the overall layout of the page, since it allows you to more precisely place elements along both axes. I like to use flexbox for building smaller components, which can in turn be positioned on the page using grid. 
