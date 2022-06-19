@@ -280,7 +280,7 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS#common_cross_browser_problems
      - https://www.frontendinterviewhandbook.com/css-questions#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use
 - [x] What are the different ways to visually hide content (and make it available only for screen readers)?
-  - **Explanation:** There are several ways to hide content visually but keep it accessible for screen readers. For instance, you can position it absolutely off screen (`left: -1000px; top: -1000px;`), set its height and width to 0, or use the clip property (`clip: rect(0, 0, 0, 0)`).
+  - **Explanation:** There are several ways to hide content visually but keep it accessible for screen readers. For instance, you can position it absolutely off screen (`left: -1000px; top: -1000px;`), set its height and width to 0, or use the clip-path or text-indent properties.
   - **Use:** I prefer to define a "visually hidden" class that combines all of the various solutions, to make sure that it works in all browsers. 
   - **Example:**
   
@@ -292,7 +292,7 @@ Most of the technical questions should have a three sentence response in the EUE
       padding: 0;
       margin: -1px;
       overflow: hidden;
-      clip: rect(0, 0, 0, 0);
+      clip-path: inset(0, 0);
       white-space: nowrap; /* added line */
       border: 0;
   }
@@ -303,11 +303,11 @@ Most of the technical questions should have a three sentence response in the EUE
   
 - [x] Have you ever used a grid system, and if so, what do you prefer?
   - **Explanation:** Yes, I have created grid layouts with floats, flexbox, and CSS grid. 
-  - **Use:** I prefer using grid for the overall layout of the page, since it allows you to more precisely place elements along both axes. I like to use flexbox for building smaller components, which can in turn be positioned on the page using grid. 
-- [ ] Have you used or implemented media queries or mobile specific layouts/CSS?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+  - **Use:** I like to use flexbox for building smaller components, which can in turn be positioned on the page using CSS grid. I prefer using grid for the overall layout of the page, since it allows you to more precisely place elements along both axes. 
+  - **Example:** Grid also allows you to easily create very different layouts for different breakpoints. 
+- [x] Have you used or implemented media queries or mobile specific layouts/CSS?
+  - **Explanation:** Yes, I use media queries and mobile-specific layouts all the time to make my pages responsive. 
+  - **Example:** For example, I often move the navigation bar inside a hamburger menu below a certain breakpoint, or change the flex-direction of a card container from column on mobile to row on desktop. 
   - **Source:**
 - [ ] Are you familiar with styling SVG?
   - **Explanation:**
