@@ -361,7 +361,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:** Pseudo-elements are keywords added to a CSS selector that let you style a particular part of the selector or add content that is not in the HTML. 
   - **Use:** They include `:first-letter`, `first-line`, `::before` and `::after`.  
   - **Example:** For example, if you wanted to make the first letter in each paragraph larger, you could use `p:first-letter`. If you wanted to add decorative icons without cluttering the document tree with unsemantic elements, you could use `::before` to insert them. 
-  - **Source:**
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions#describe-pseudo-elements-and-discuss-what-they-are-used-for
 - [ ] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
   - **Explanation:**
   - **Use:**
