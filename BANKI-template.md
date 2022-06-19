@@ -333,10 +333,14 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://web.dev/rendering-performance/
      - https://developers.google.com/speed/docs/insights/browser-reflow
 - [ ] What are the advantages/disadvantages of using CSS preprocessors?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+  - **Explanation:** CSS preprocessors have a lot of useful features, like the ability to use variables, math operations, and mixins (to define reusable styles), as well as the ability to organize styles into multiple files and combine them later. 
+  - **Use:** These features can make CSS faster to write and easier to maintain and organize. 
+  - **Example:** For example, by using variables, you can change a color in one place instead of having to change it everywhere. 
+  - **Explanation: ** One disadvantage is that debugging is harder, because the line numbers of the generated CSS don't correspond to the line numbers of our preprocessed CSS. Second, preprocessors can generate huge CSS files. Finally, the compilation step slows development (since you have to wait for it to finish in order to see your changes).  
   - **Source:**
+     - https://techaffinity.com/blog/advantages-of-css-preprocessors/
+     - https://sass-lang.com/guide
+     - https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/
 - [ ] Describe what you like and dislike about the CSS preprocessors you have used.
   - **Explanation:**
   - **Use:**
