@@ -314,18 +314,24 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** I have edited logos and icons by using the `fill` and `stroke` attributes to change colors. 
   - **Example:** <rect width="100" height="100" stroke="blue" fill="purple" />
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes  
-- [ ] Can you give an example of an `@media` property other than screen?
+- [x] Can you give an example of an `@media` property other than screen?
   - **Explanation:** In media queries, there are properties for media types and media features. 
   - **Use:** The three media types are all, screen, and print (others are deprecated). Some media features include min-width and max-width, aspect-ratio, resolution, orientation, color, grid, and bitmap.
-  - **Example:** For example, you could write a declaration `@media screen and (max-width: 390px)` to target screen devices under 391px wide. 
+  - **Example:** For example, you could write a query `@media screen and (max-width: 390px)` to target screen devices under 391px wide. 
   - **Source:** 
       - https://drafts.csswg.org/mediaqueries/#media-types
       - https://developer.mozilla.org/en-US/docs/Web/CSS/@media#accessibility_concerns
-- [ ] What are some of the "gotchas" for writing efficient CSS?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] What are some of the "gotchas" for writing efficient CSS?
+  - **Explanation:** It's important to keep in mind that browsers parse selectors from right to left, so they first find all the elements that match the key selector, and then parse the prequalifiers.
+  - **Use:**  You want to avoid using long relationship selectors and key selectors that match many elements, like tag and universal selectors. The shorter the length of the selector chain, the faster the browser can render the styles. 
+  - **Example:** For example, using a single class like `.hero_image` is a better choice than `.hero img`. 
+  - You also want to be aware of properties that trigger reflow, repaint, or compositing, and avoid writing styles that change the layout. 
   - **Source:**
+     - https://www.frontendinterviewhandbook.com/css-questions#what-are-some-of-the-gotchas-for-writing-efficient-css
+     - https://csstriggers.com/
+     - BEM Metholodology - "Block, Element, Modifier" - https://en.bem.info/methodology/quick-start/
+     - https://web.dev/rendering-performance/
+     - https://developers.google.com/speed/docs/insights/browser-reflow
 - [ ] What are the advantages/disadvantages of using CSS preprocessors?
   - **Explanation:**
   - **Use:**
