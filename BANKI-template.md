@@ -264,7 +264,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** I would go with .clearfix or display: flow-root in most contexts, as setting overflow: auto can lead to unintended scrollbars.
   - **Source:** https://css-tricks.com/snippets/css/clear-fix/
   
-- [ ] Explain CSS sprites, and how you would implement them on a page or site.
+- [x] Explain CSS sprites, and how you would implement them on a page or site.
   - **Explanation:** CSS sprites are a way of combining multiple images into one image file, and then using the background-image and -position properties to display a part of the image each time. 
   - **Use:** They are used to increase performance, since you only need to download one image, rather than multiple images. 
   - **Example:** Image sprites are a great technique for small icons or a graphical text-editor menu. 
@@ -279,12 +279,12 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:** 
      - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS#common_cross_browser_problems
      - https://www.frontendinterviewhandbook.com/css-questions#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use
-- [ ] What are the different ways to visually hide content (and make it available only for screen readers)?
+- [x] What are the different ways to visually hide content (and make it available only for screen readers)?
   - **Explanation:** There are several ways to hide content visually but keep it accessible for screen readers. For instance, you can position it absolutely off screen (`left: -1000px; top: -1000px;`), set its height and width to 0, or use the clip property (`clip: rect(0, 0, 0, 0)`).
   - **Use:** I prefer to define a "visually hidden" class that combines all of the various solutions, to make sure that it works in all browsers. 
   - **Example:**
   
-```
+```css
   .visually-hidden {
       position: absolute;
       width: 1px;
