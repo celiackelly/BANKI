@@ -315,10 +315,12 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** <rect width="100" height="100" stroke="blue" fill="purple" />
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes  
 - [ ] Can you give an example of an `@media` property other than screen?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Explanation:** In media queries, there are properties for media types and media features. 
+  - **Use:** The three media types are all, screen, and print (others are deprecated). Some media features include min-width and max-width, aspect-ratio, resolution, orientation, color, grid, and bitmap.
+  - **Example:** For example, you could write a declaration `@media screen and (max-width: 390px)` to target screen devices under 391px wide. 
+  - **Source:** 
+      - https://drafts.csswg.org/mediaqueries/#media-types
+      - https://developer.mozilla.org/en-US/docs/Web/CSS/@media#accessibility_concerns
 - [ ] What are some of the "gotchas" for writing efficient CSS?
   - **Explanation:**
   - **Use:**
