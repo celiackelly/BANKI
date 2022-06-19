@@ -269,16 +269,16 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** They are used to increase performance, since you only need to download one image, rather than multiple images. 
   - **Example:** Image sprites are a great technique for small icons or a graphical text-editor menu. 
   - **Source:** https://css-tricks.com/css-sprites/
-- [ ] How would you approach fixing browser-specific styling issues?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] How would you approach fixing browser-specific styling issues?
+  - **Explanation:** There are a number of approaches to this issue, such as serving browser-specific stylesheets and using a library like Bootstrap. I always start by using Normalize.css or Reset.css, to make styling consistent across browsers. I also research the feature support for the browsers I am using and implement vendor prefixes, fallback properties, and polyfills to take care of any browser-specific issues.
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions#how-would-you-approach-fixing-browser-specific-styling-issues
+- [x] How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?
+  - **Explanation:** I prefer to plan for feature-constrained browsers from the beginning by building lightweight, simple sites using progressive enhancement. 
+  - **Use:** If you focus on building the base HTML and CSS with semantics and accessibility in mind, you'll get a site that works well in feature-constrained browsers. I then layer on additional CSS and client-side JavaScript judiciously and use vendor prefixes, fallbacks, and polyfills to add support for newer features in older browsers as needed. 
+  - **Example:** I also use CSS @support feature query rules to apply certain styles only if the browser supports them. 
+  - **Source:** 
+     - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS#common_cross_browser_problems
+     - https://www.frontendinterviewhandbook.com/css-questions#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use
 - [ ] What are the different ways to visually hide content (and make it available only for screen readers)?
   - **Explanation:**
   - **Use:**
