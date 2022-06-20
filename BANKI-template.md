@@ -373,11 +373,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** This allows you to set actual sizes and avoid having to do any math to take padding and borders into account.
   - **Example:** So for example, if the total width of the element is set at 100px and it has a left and right padding of 20px each, the content would be only 60px wide, to account for the 40px of padding. 
   - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model
-- [ ] What is the CSS `display` property and can you give a few examples of its use?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What is the CSS `display` property and can you give a few examples of its use?
+  - **Explanation/Use:** The `display` property defines whether an element is treated as a block or inline element in the flow layout of the page, and also the layout used for its children, such as flow layout, grid or flex.
+  - **Example:** For example, if you set `display: block`, you're setting the outer display value; the element will expand to fill the whole line, and the next element will start on a new line. If you set `display: flex` you're setting the inner display value, so the element's children will be laid out as flex items within that container. You can also set values like `display: none`, which renders the page without the element, or combo values like `display: inline-flex`, which treats the element itself as an inline element in the flow layout, but lays its children out as flex items. 
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/display
 - [ ] What's the difference between `inline` and `inline-block`?
   - **Explanation:**
   - **Use:**
