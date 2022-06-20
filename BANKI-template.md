@@ -375,13 +375,13 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model
 - [x] What is the CSS `display` property and can you give a few examples of its use?
   - **Explanation/Use:** The `display` property defines whether an element is treated as a block or inline element in the flow layout of the page, and also the layout used for its children, such as flow layout, grid or flex.
-  - **Example:** For example, if you set `display: block`, you're setting the outer display value; the element will expand to fill the whole line, and the next element will start on a new line. If you set `display: flex` you're setting the inner display value, so the element's children will be laid out as flex items within that container. You can also set values like `display: none`, which renders the page without the element, or combo values like `display: inline-flex`, which treats the element itself as an inline element in the flow layout, but lays its children out as flex items. 
+  - **Example:** For example, if you set `display: block`, you're setting the outer display value; the next element will start on a new line, so that the boxes are laid out vertically. If you set `display: flex` you're setting the inner display value, so the element's children will be laid out as flex items within that container. You can also set values like `display: none`, which renders the page without the element, or combo values like `display: inline-flex`, which treats the element itself as an inline element in the flow layout, but lays its children out as flex items. 
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/display
-- [ ] What's the difference between `inline` and `inline-block`?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What's the difference between `inline` and `inline-block`?
+  - **Explanation:** Inline elements are laid out horizontally on the same line, and wrap to a new line when they run out of space. They can have horizontal padding and margin, but cannot be given explicit width, height, or vertical margin. 
+  - **Use:** Inline-block elements are still laid out horizontally on the same line, but can take on all box model properties, like block elements can (including width, height, and vertical margin).
+  - **Example:** A good use case for inline-block elements could be links in a navigation menu, so that they can be arranged horizontally, but can be given consistent dimensions (rather than defaulting to the width of the link text). 
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow
 - [ ] What's the difference between a `relative`, `fixed`, `absolute` and `static` positioned element?
   - **Explanation:**
   - **Use:**
