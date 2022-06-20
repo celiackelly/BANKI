@@ -362,16 +362,17 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** They include `:first-letter`, `first-line`, `::before` and `::after`.  
   - **Example:** For example, if you wanted to make the first letter in each paragraph larger, you could use `p:first-letter`. If you wanted to add decorative icons without cluttering the document tree with unsemantic elements, you could use `::before` to insert them. 
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions#describe-pseudo-elements-and-discuss-what-they-are-used-for
-- [ ] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
-  - **Explanation:** In the box model, every element on the page, no matter its shape, is represented as a rectangular box.
-  - **Use:**
-  - **Example:**
-  - **Source:**
-- [ ] What does `* { box-sizing: border-box; }` do? What are its advantages?
-  - **Explanation:**  In the default content-box setting, only an element's base height or width is taken into account when caluculating its size. 
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] Explain your understanding of the box model and how you would tell the browser, through CSS, to render your layout in different box models.
+  - **Explanation:** In the box model, every element on the page is represented as a rectangular box of content, with optional padding, border, and margin. The box model is responsible for calculating the dimensions of each box and whether or not their padding or margin will overlap or collapse. 
+  - **Use:** In the default content-box setting, the browser calculates a box's size by taking its specified height/width and adding any padding and border to get its total size. 
+  - **Example:** So for example, if an element's width is set at 100px, but it has a left padding and right padding of 20px each, the box's total width would be 140px. 
+  -**Explanation:** To use the more intuitive border-box model, you would set `{box-sizing: border box}` on the universal selector (and any before/after pseudo elements). This allows you to specify the total dimensions of a box, including any padding or border, with the `height` and `width` properties. So in the previous example, if the total width of the element is set at 100px and it has a left and right padding of 20px each, the content would be only 60px wide, to account for the 40px of padding. 
+  - **Source:** https://www.smashingmagazine.com/2010/06/the-principles-of-cross-browser-css-coding/#understand-the-css-box-model
+- [x] What does `* { box-sizing: border-box; }` do? What are its advantages?
+  - **Explanation:** Setting `* { box-sizing: border-box; }` allows you to specify the total dimensions of a box, including any padding or border, with the `height` and `width` properties.  
+  - **Use:** This allows you to set actual sizes and avoid having to do any math to take padding and borders into account.
+  - **Example:** So for example, if the total width of the element is set at 100px and it has a left and right padding of 20px each, the content would be only 60px wide, to account for the 40px of padding. 
+  - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model
 - [ ] What is the CSS `display` property and can you give a few examples of its use?
   - **Explanation:**
   - **Use:**
