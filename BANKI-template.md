@@ -392,12 +392,12 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:**
   - **Use:**
   - **Example:**
-  - **Source:**
-- [ ] Have you played around with the new CSS Flexbox or Grid specs?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+  - **Source:** 
+- [x] Have you played around with the new CSS Flexbox or Grid specs?
+  - **Explanation:** Yes, I have used both flexbox and grid, and both have their advantages for different situations. 
+  - **Use:** Flexbox solves many traditional CSS problems, like vertical centering of elements within a container. It's is primarily meant for layouts in one direction, while grid is meant for laying out content in both directions.
+  - **Example:**  I often use flexbox to build smaller components or sections, and then use grid to arrange those components on the page. I love how grid allows you to create very different layouts at different breakpoints by using `grid-template-areas`. 
+  - **Source:** https://philipwalton.github.io/solved-by-flexbox/
 - [ ] Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
   - **Explanation:**
   - **Use:**
