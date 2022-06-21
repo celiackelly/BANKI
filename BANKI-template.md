@@ -382,11 +382,12 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** Inline-block elements are still laid out horizontally on the same line, but can take on all box model properties, like block elements can (including width, height, and vertical margin).
   - **Example:** A good use case for inline-block elements could be links in a navigation menu, so that they can be arranged horizontally, but can be given consistent dimensions (rather than defaulting to the width of the link text). 
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow
-- [ ] What's the difference between a `relative`, `fixed`, `absolute` and `static` positioned element?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What's the difference between a `relative`, `fixed`, `absolute` and `static` positioned element?
+  - **Static** is the default value for the `position` property, and it means that the element is positioned according to the normal flow of the document. 
+  - **Relative** behaves the same way as static, unless you combine it with box-model offsets, like `top`, `bottom`, `left`, and `right`, which shift the element relative to its default position. For example, `position: relative `and `left: 20px` shift the element 20px to the left of its normal position. Other elements will not fill the space it would otherwise have occupied, but they may overlap at its new position. 
+  - **Absolutely** positioned elements are removed from the document flow and no space is left for them in the page layout. The box offset properties position the element relative to its nearest positioned parent (or the body).  
+  - **Fixed** also works in conjunction with the same box offest properties, but the element is positioned relative to the viewport and stays in that position when the screen is scrolled. 
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/position
 - [ ] What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
   - **Explanation:**
   - **Use:**
