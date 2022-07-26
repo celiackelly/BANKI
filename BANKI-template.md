@@ -436,6 +436,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:**
      - https://web.dev/animations-overview/#pipeline
      - https://web.dev/animations-guide/ 
+     - https://csstriggers.com/transform
 
 ### Javascript
 
