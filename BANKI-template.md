@@ -412,10 +412,24 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
      - https://www.fastcompany.com/3038367/9-gifs-that-explain-responsive-design-brilliantly-2
 - [ ] Have you ever worked with retina graphics? If so, when and what techniques did you use?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+  - **Explanation:** Retina is a marketing term coined by Apple to describe screens with high enough pixel density that the human eye can't pick out individual pixels. In order to keep images looking crisp on high resolution screens, we need to use high resolution graphics whenever possible, while also minimizing page load times.
+  - **Use:** One technique I use to overcome this issue is serving responsive images using the HTML5 `srcset` attribute.  
+  - **Example:** This allows us to provide a set of image options at different sizes and let the browser calculate the best image for the screen size and resolution.  
+  
+   ```
+  <img
+  src="/images/test-1600.jpg"
+  srcset="
+    /images/test-400.jpg   400w,
+    /images/test-800.jpg   800w,
+    /images/test-1200.jpg 1200w
+  "/>
+  ```
+  
   - **Source:**
+     - https://www.frontendinterviewhandbook.com/css-questions#have-you-ever-worked-with-retina-graphics-if-so-when-and-what-techniques-did-you-use
+     - https://imulus.github.io/retinajs/
+  
 - [ ] Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?
   - **Explanation:**
   - **Use:**
