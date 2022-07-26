@@ -398,10 +398,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** Flexbox solves many traditional CSS problems, like vertical centering of elements within a container. It's is primarily meant for layouts in one direction, while grid is meant for laying out content in both directions.
   - **Example:**  I often use flexbox to build smaller components or sections, and then use grid to arrange those components on the page. I love how grid allows you to create very different layouts at different breakpoints by using `grid-template-areas`. 
   - **Source:** https://philipwalton.github.io/solved-by-flexbox/
-- [ ] Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
+  - **Explanation:** A responsive website is coded to dynamically adapt its content and layout based on different screen sizes, orientations, and devices. A mobile-first strategy is also responsive, but all styles are defined for the mobile breakpoint first, and then additional styles are defined for larger screens. 
+  - **Use:** Using a mobile-first strategy for responsive design can ensure that mobile users have a seamless and optimized experience. 
+  - **Example:** For example, mobile-first sites perform better on mobile, since their styles don't have to be checked against media queries before being applied. 
   - **Source:**
 - [ ] How is responsive design different from adaptive design?
   - **Explanation:**
