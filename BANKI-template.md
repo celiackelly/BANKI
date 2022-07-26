@@ -403,11 +403,14 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** Using a mobile-first strategy for responsive design can ensure that mobile users have a seamless and optimized experience. 
   - **Example:** For example, mobile-first sites perform better on mobile, since their styles don't have to be checked against media queries before being applied. 
   - **Source:**
-- [ ] How is responsive design different from adaptive design?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+     - https://www.frontendinterviewhandbook.com/css-questions#can-you-explain-the-difference-between-coding-a-website-to-be-responsive-versus-using-a-mobile-first-strategy
+- [x] How is responsive design different from adaptive design?
+  - **Explanation:** In a responsive site, the design changes fluidly and continually based on the size of the browser at any point, whereas in an adaptive site, the design changes at specific breakpoints or on specific devices. 
+  - **Use:** Both strategies are used to optimize a website's content and layout for different screens. 
+  - **Example:** One way to think about the difference is smooth vs. snap design. For example, as the browser width increases, a responsive container smoothly expands. An adaptive container, however, might start at one size and then snap to another size once the browser width is above 500px.  
   - **Source:**
+     - https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
+     - https://www.fastcompany.com/3038367/9-gifs-that-explain-responsive-design-brilliantly-2
 - [ ] Have you ever worked with retina graphics? If so, when and what techniques did you use?
   - **Explanation:**
   - **Use:**
