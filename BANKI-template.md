@@ -411,7 +411,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:**
      - https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
      - https://www.fastcompany.com/3038367/9-gifs-that-explain-responsive-design-brilliantly-2
-- [ ] Have you ever worked with retina graphics? If so, when and what techniques did you use?
+- [x] Have you ever worked with retina graphics? If so, when and what techniques did you use?
   - **Explanation:** Retina is a marketing term coined by Apple to describe screens with high enough pixel density that the human eye can't pick out individual pixels. In order to keep images looking crisp on high resolution screens, we need to use high resolution graphics whenever possible, while also minimizing page load times.
   - **Use:** One technique I use to overcome this issue is serving responsive images using the HTML5 `srcset` attribute.  
   - **Example:** This allows us to provide a set of image options at different sizes and let the browser calculate the best image for the screen size and resolution.  
