@@ -401,7 +401,7 @@ Most of the technical questions should have a three sentence response in the EUE
 - [x] Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
   - **Explanation:** A responsive website is coded to dynamically adapt its content and layout based on different screen sizes, orientations, and devices. A mobile-first strategy is also responsive, but all styles are defined for the mobile breakpoint first, and then additional styles are defined for larger screens. 
   - **Use:** Using a mobile-first strategy for responsive design can ensure that mobile users have a seamless and optimized experience. 
-  - **Example:** For example, mobile-first sites perform better on mobile, since their styles don't have to be checked against media queries before being applied. 
+  - **Example:** For example, mobile-first sites perform better on mobile devices with limited bandwidth, since their styles don't have to be checked against media queries before being applied. 
   - **Source:**
      - https://www.frontendinterviewhandbook.com/css-questions#can-you-explain-the-difference-between-coding-a-website-to-be-responsive-versus-using-a-mobile-first-strategy
 - [x] How is responsive design different from adaptive design?
