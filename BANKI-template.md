@@ -443,7 +443,7 @@ Most of the technical questions should have a three sentence response in the EUE
 - [x] Explain event delegation
   - **Explanation:** Event delegation is a technique for adding the same event handling to many similar DOM elements. 
   - **Use:**  You add one event handler to the parent element, rather than separate event handlers to each child element. When the event is triggered on any of the children, the listener will fire due to event bubbling. 
-  - **Example:** For example, if we wanted to highlight a list item on click, we could add an event listener to the <ul>, use the event.target property to check which <li> was clicked, and use that to highlight the correct <li>. 
+  - **Example:** For example, if we wanted to highlight a list item on click, we could add an event listener to the `<ul>`, use the event.target property to check which `<li>` was clicked, and use that to highlight the correct `<li>`. 
   - **Source:**
      - https://www.frontendinterviewhandbook.com/javascript-questions/#explain-event-delegation
      - https://javascript.info/event-delegation
