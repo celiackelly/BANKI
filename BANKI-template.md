@@ -429,12 +429,13 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:**
      - https://www.frontendinterviewhandbook.com/css-questions#have-you-ever-worked-with-retina-graphics-if-so-when-and-what-techniques-did-you-use
      - https://imulus.github.io/retinajs/
-  
-- [ ] Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?
+  - **Use:** `transform: translate()` is a much better choice for animations than `absolute` positioning. 
+  - **Explanation:** `absolute' positioning changes the layout, so it triggers reflow, paint, and compositing. `translate()` on the other hand only triggers compositing, so it is much more efficient and results in smoother animations. 
+  - **Example:** When using `translate()`, the element's original space on the page is still preserved (sort of like `position: relative`), so you might want to use `absolute` positioning if that's not the desired behavior. 
   - **Source:**
+     - https://web.dev/animations-overview/#pipeline
+     - https://web.dev/animations-guide/ 
 
 ### Javascript
 
