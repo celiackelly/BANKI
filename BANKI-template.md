@@ -492,11 +492,17 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:**
      - https://www.javascripttutorial.net/javascript-immediately-invoked-function-expression-iife/
      - https://www.frontendinterviewhandbook.com/javascript-questions/#explain-why-the-following-doesnt-work-as-an-iife-function-foo--what-needs-to-be-changed-to-properly-make-it-an-iife
-- [ ] What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
-  - **Explanation:**
+- [x] What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
+  - **Explanation:** 
+     - An undeclared variable is created when you assign a value to a variable that has not previously been declared with `let`, `const`, or `var`. 
+     - A variable that is undefined has been declared, but has not been assigned a value.
+     - A variable that is null has been explictly assigned the value `null`, which represents no value. 
   - **Use:**
-  - **Example:**
+     - An undeclared variable will cause an error unless it is wrapped in a try/catch block. 
+     - You can check for the values `undefined` and `null` by using the strict equality operator `===`. 
   - **Source:**
+     - https://www.30secondsofcode.org/articles/s/javascript-undeclared-undefined-null 
+     - https://www.frontendinterviewhandbook.com/javascript-questions#whats-the-difference-between-a-variable-that-is-null-undefined-or-undeclared-how-would-you-go-about-checking-for-any-of-these-states
 - [ ] What is a closure, and how/why would you use one?
   - **Explanation:**
   - **Use:**
