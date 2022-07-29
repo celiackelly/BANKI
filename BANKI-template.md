@@ -508,11 +508,15 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Can you describe the main difference between a `.forEach()` loop and a `.map()` loop and why you would pick one versus the other?
+- [x] Can you describe the main difference between a `.forEach()` loop and a `.map()` loop and why you would pick one versus the other?
   - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+     - A `.forEach()` loop iterates through an array and executes a callback function for each element, but does not have a return value. 
+     - A `.map()` loop iterates through an array, maps each element to a new value by calling a callback function on each element, and returns an array of the new values.
+  - **Use:** It's best to use `.map()` when you need to use the resulting array. If you just need to iterate through the array but don't need to use the return value, you should use `.forEach()`. 
+  - **Example:** 
+     - For example, say you have an array of 
+  - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions#can-you-describe-the-main-difference-between-a-foreach-loop-and-a-map-loop-and-why-you-would-pick-one-versus-the-other
+  
 - [ ] What's a typical use case for anonymous functions?
   - **Explanation:**
   - **Use:**
