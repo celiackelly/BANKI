@@ -448,10 +448,10 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://www.frontendinterviewhandbook.com/javascript-questions/#explain-event-delegation
      - https://javascript.info/event-delegation
 - [ ] Explain how `this` works in JavaScript
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:** `this` refers to the object that is executing the current function. 
+  - **Use:** 
   - **Example:**
-  - **Source:**
+  - **Source:** Mosh: https://www.youtube.com/watch?v=gvicrj31JOM
 - [ ] Explain how prototypal inheritance works
   - **Explanation:**
   - **Use:**
