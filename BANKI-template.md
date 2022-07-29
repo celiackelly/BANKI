@@ -450,8 +450,15 @@ Most of the technical questions should have a three sentence response in the EUE
 - [ ] Explain how `this` works in JavaScript
   - **Explanation:** `this` refers to the object that is executing the current function. 
   - **Use:** 
+     - If the function is called with the `new` keyword, `this` refers to the new object created by the constructor. 
+     - If `apply`, `call`, or `bind` are used to call/create a function, `this` inside the function is the object that is passed in as the argument.
+     - If the function is a method, `this` refers to the object that the function is a property of. 
+     - If the function is not tied to an object, `this` refers to the global object, or the Window object if the code is being executed in the browser. 
   - **Example:**
+     - 
   - **Source:** Mosh: https://www.youtube.com/watch?v=gvicrj31JOM
+     - https://codeburst.io/the-simple-rules-to-this-in-javascript-35d97f31bde3
+     - https://www.frontendinterviewhandbook.com/javascript-questions/#explain-how-this-works-in-javascript
 - [ ] Explain how prototypal inheritance works
   - **Explanation:**
   - **Use:**
