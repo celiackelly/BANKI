@@ -481,11 +481,14 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
+  - **Explanation:** This code doesn't work as an IIFE (immediately invoked function expression) because it is using a function declaration rather than a function expression. The parser interprets it as two separate statements, a function declaration `function foo(){ }` and then an empty function call `()`.
+  - **Use:**  To make this code work, you need to add parentheses around the function (i.e. starting from the word function and ending after the curly braces). The added parentheses make the function an expression, which is then immediately called with the ending set of parentheses `()`.
+  - **Example:** `(function foo(){ })();` 
+  - You also need to be sure to use semicolons at the end of each statement when working with IIFEs, or your code will throw an error. 
   - **Source:**
+     - https://www.javascripttutorial.net/javascript-immediately-invoked-function-expression-iife/
+     - https://www.frontendinterviewhandbook.com/javascript-questions/#explain-why-the-following-doesnt-work-as-an-iife-function-foo--what-needs-to-be-changed-to-properly-make-it-an-iife
 - [ ] What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
   - **Explanation:**
   - **Use:**
