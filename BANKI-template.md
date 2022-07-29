@@ -471,11 +471,14 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://codeburst.io/the-simple-rules-to-this-in-javascript-35d97f31bde3
      - https://www.frontendinterviewhandbook.com/javascript-questions/#explain-how-this-works-in-javascript
   - **Note:** ES6 arrow functions - `this` works differently
-- [ ] Explain how prototypal inheritance works
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] Explain how prototypal inheritance works.
+  - **Explanation:** All JavaScript objects have a `__proto__` property that refers to another object, which is called its prototype. These `__proto__` properties form a chain that links all the way up to the global Object prototype. 
+  - **Use:** Prototypal inheritance lets us to define properties and methods once on the prototype object, and any objects created from that prototype will also have access to those properties and methods. When we access a property on an object, if it is not found on that object, the JS engine looks for the property on that objects's prototype, and then the prototype's prototype, and so on, until it finds the property or reaches the end of the chain. 
+  - **Example:** For example, if we have an array `const numbers = [1, 2, 3]` and call the method numbers.join(''), the JS will first look for the `.join` method on the numbers object. When it can't find it there, it goes to the prototype, which is the Array object, finds the `.join`. method there, and calls it. 
   - **Source:**
+    - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+    - https://www.frontendinterviewhandbook.com/javascript-questions#explain-how-prototypal-inheritance-works
+  
 - [ ] What do you think of AMD vs CommonJS?
   - **Explanation:**
   - **Use:**
