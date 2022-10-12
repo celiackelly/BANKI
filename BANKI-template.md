@@ -388,10 +388,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Absolutely** positioned elements are removed from the document flow and no space is left for them in the page layout. The box offset properties position the element relative to its nearest positioned parent (or the body).  
   - **Fixed** also works in conjunction with the same box offest properties, but the element is positioned relative to the viewport and stays in that position when the screen is scrolled. 
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/position
-- [ ] What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
+- [x] What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
   - **Explanation:** I have used Bootstrap in production. 
-  - **Use:** It's useful for making a site look decent quickly, but your sites end up looking very similar to other Bootstrap sites. You can also end up with a lot of unsemantic mark-up, which isn't great for accessibility.
-  - **Example:** 
+  - **Use:** It's useful for making a site look decent quickly, but your sites end up looking very similar to other Bootstrap sites. You can also end up with a lot of extra divs and other unsemantic mark-up, which isn't great for accessibility.
+  - **Example:** I would improve Bootstrap by making semantic HTML and accessibility core features of the framework, rather than something you can make work if you're adding the right aria roles, etc. 
   - **Source:** 
     - https://betterprogramming.pub/3-reasons-to-abandon-bootstrap-in-2021-aa71bbc1af14
 - [x] Have you played around with the new CSS Flexbox or Grid specs?
