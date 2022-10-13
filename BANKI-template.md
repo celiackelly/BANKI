@@ -529,11 +529,11 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] What's the difference between host objects and native objects?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What's the difference between host objects and native objects?
+  - **Explanation:** Native objects are those built into the language itself, whereas host objects are are built into the environment we're running our code in. 
+  - **Use:** For example, in Javascript, native objects are those defined in the ECMA Script standards, like String, Array, Object, Function, and RegExp. We always have access to these objects, no matter what runtime environment we're using. 
+  - **Example:** Objects like window, location, and setTimeout are host objects; they are provided by the browser environment, and we do not have access to them when we're running our code in a different environment, like Node. 
+  - **Source:** https://stackoverflow.com/questions/7614317/what-is-the-difference-between-native-objects-and-host-objects
 - [ ] Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
   - **Explanation:**
   - **Use:**
