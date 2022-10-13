@@ -341,10 +341,10 @@ Most of the technical questions should have a three sentence response in the EUE
      - https://techaffinity.com/blog/advantages-of-css-preprocessors/
      - https://sass-lang.com/guide
      - https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/
-- [ ] Describe what you like and dislike about the CSS preprocessors you have used.
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] Describe what you like and dislike about the CSS preprocessors you have used.
+  - **Explanation:** I've used Sass, especially to customize Bootstrap colors. 
+  - **Use:** I find the ability to use variables and split code into multiple files very useful features.  
+  - **Example:** I dislike having to wait for compilation to see my changes, as it slows my workflow and makes it harder to test each piece as I'm writing it. 
   - **Source:**
 - [x] How would you implement a web design comp that uses non-standard fonts?
   - **Note:** web design comp = web design comprehensive = a mock-up 
