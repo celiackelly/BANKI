@@ -517,11 +517,13 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** It's best to use `.map()` when you need to use the resulting array, or when you want to be sure not to mutate the original array. If you just need to do something for each element in the array but don't need to use the return value, you should use `.forEach()`. 
   - **Example:** For example, you might use `.forEach()` to log each element of the array or save it to a database. 
   - **Source:** https://codeburst.io/javascript-map-vs-foreach-f38111822c0f
-- [ ] What's a typical use case for anonymous functions?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] What's a typical use case for anonymous functions?
+  - **Use:** Anonymous functions are often used when you're passing one function to another function as an argument/callback.
+  - **Example:** For example, if I'm writing a click event handler and the function I'm running on click doesn't need to be used anywhere else, I'll often use an anonymous function expression to write the code inline. I also do this with functions passed to methods like map and forEach. 
+  - **Explanation:** Anonymous functions are also useful in IIFEs, to encapsulate a piece of code in local scope so that the variables declared inside it do not pollute the global scope. 
   - **Source:**
+    - https://www.quora.com/Whats-a-typical-use-case-for-anonymous-functions-in-JavaScript
+    - https://www.frontendinterviewhandbook.com/javascript-questions#whats-a-typical-use-case-for-anonymous-functions
 - [ ] How do you organize your code? (module pattern, classical inheritance?)
   - **Explanation:**
   - **Use:**
