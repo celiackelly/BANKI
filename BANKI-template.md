@@ -592,7 +592,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Explanation:** `document.write()` is an outdated part of the DOM web API. It writes a string of text to a document that has been previously opened with `document.open`. 
   - **Use:** I would not use this method, because the HTML spec specifically discourages it due to its unpredictable behavior. 
   - **Example:** For example, if `document.write()` is called on a closed/loaded document, it will also call `document.open()`, which clears the contents of the document. Some browsers specifically block scripts inserted with `document.write()` from executing. 
-  - **Source:**
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/API/Document/write
 - [ ] What's the difference between feature detection, feature inference, and using the UA string?
   - **Explanation:**
   - **Use:**
