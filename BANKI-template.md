@@ -588,10 +588,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** `.bind()` can be very useful for binding a callback function's `this` value. Otherwise, the callback's `this` value will be set to the `this` value of the enclosing higher-order function.
   - **Source:** https://thenewstack.io/mastering-javascript-callbacks-bind-apply-call/
      - https://betterprogramming.pub/when-to-use-bind-call-and-apply-in-javascript-1ae9d7fa66d5
-- [ ] When would you use `document.write()`?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] When would you use `document.write()`?
+  - **Explanation:** `document.write()` is an outdated part of the DOM web API. It writes a string of text to a document that has been previously opened with `document.open`. 
+  - **Use:** I would not use this method, because the HTML spec specifically discourages it due to its unpredictable behavior. 
+  - **Example:** For example, if `document.write()` is called on a closed/loaded document, it will also call `document.open()`, which clears the contents of the document. Some browsers specifically block scripts inserted with `document.write()` from executing. 
   - **Source:**
 - [ ] What's the difference between feature detection, feature inference, and using the UA string?
   - **Explanation:**
