@@ -583,10 +583,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Source:** https://betterprogramming.pub/when-to-use-bind-call-and-apply-in-javascript-1ae9d7fa66d5
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
 - [ ] Explain `Function.prototype.bind`.
-  - **Explanation:**
-  - **Use:**
+  - **Explanation:**  `Function.prototype.bind` returns a new function that will use the first argument passed in as its `this` value when it is called. (The new function's `this` value is "bound" to that object.)
+  - **Use:** 
   - **Example:**
-  - **Source:**
+  - **Source:** https://betterprogramming.pub/when-to-use-bind-call-and-apply-in-javascript-1ae9d7fa66d5
 - [ ] When would you use `document.write()`?
   - **Explanation:**
   - **Use:**
