@@ -582,7 +582,7 @@ Most of the technical questions should have a three sentence response in the EUE
       ```
   - **Source:** https://betterprogramming.pub/when-to-use-bind-call-and-apply-in-javascript-1ae9d7fa66d5
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
-- [z] Explain `Function.prototype.bind`.
+- [x] Explain `Function.prototype.bind`.
   - **Explanation:**  `Function.prototype.bind` returns a new function that will use the first argument passed in as its `this` value when it is called. (The new function's `this` value is "bound" to that object.)
   - **Use:**  It's similar to `.call()` and `.apply()`, except that with .bind(), the function does not immediately run.  
   - **Example:** `.bind()` can be very useful for binding a callback function's `this` value. Otherwise, the callback's `this` value will be set to the `this` value of the enclosing higher-order function.
