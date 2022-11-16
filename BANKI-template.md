@@ -554,11 +554,34 @@ Most of the technical questions should have a three sentence response in the EUE
   ```
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
      - https://www.frontendinterviewhandbook.com/javascript-questions/#difference-between-function-person-var-person--person-and-var-person--new-person
-- [ ] What's the difference between `.call()` and `.apply()`?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
-  - **Source:**
+- [x] What's the difference between `.call()` and `.apply()`?
+  - **Explanation:** Both `.call()` and `.apply()` allow you to call a function, using the first argument passed in as the function's `this` value. The difference is that for any additional arguments of the function, `.call()` takes individual comma-separated arguments, while `.apply()` takes an array of arguments.  
+  - **Use:** One use case for `.call()` and `.apply()` is to chain object constructors. 
+  - **Example:** 
+      ```
+      function Product(name, price) {
+        this.name = name;
+        this.price = price;
+      }
+
+      function Food(name, price) {
+        Product.call(this, name, price);
+        this.category = 'food';
+        // add other food-specific fields here
+      }
+
+      function Beverage(name, price) {
+        Product.call(this, name, price);
+        this.category = 'beverage';
+        // add other beverage-specific fields here
+      }
+
+      const cheese = new Food('feta', 5);
+      const wine = new Beverage('wine', 15);
+  
+      ```
+  - **Source:** https://betterprogramming.pub/when-to-use-bind-call-and-apply-in-javascript-1ae9d7fa66d5
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
 - [ ] Explain `Function.prototype.bind`.
   - **Explanation:**
   - **Use:**
