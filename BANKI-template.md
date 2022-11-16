@@ -643,10 +643,10 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:**
   - **Example:**
   - **Source:**
-- [ ] What is the difference between `==` and `===`?
-  - **Explanation:**
-  - **Use:**
-  - **Example:**
+- [x] What is the difference between `==` and `===`?
+  - **Explanation:** Triple equals `===` is the strict equality comparison operator, meaning that it checks whether the two  values are the same in both value and type. Double equals `==` is the loose equality comparison operator, meaning it checks that the two operands match in value, but disregards their type. For `==`, if the two values are not the same type, they are converted to the same type before being compared.
+  - **Example:** For example, `"1" === 1` evaluates to false, since one is a string and the other is a number. However, `"1" == 1` evaluates to true; the number 1 is converted to the string `"1"` for the purposes of comparison. 
+  - **Use:** I generally use the strict equality operator whenever possible, since I think it makes the code clearer and leaves fewer questions.  
   - **Source:**
 - [ ] Explain the same-origin policy with regards to JavaScript.
   - **Explanation:**
