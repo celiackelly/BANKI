@@ -534,11 +534,26 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** For example, in Javascript, native objects are those defined in the ECMA Script standards, like String, Array, Object, Function, and RegExp. We always have access to these objects, no matter what runtime environment we're using. 
   - **Example:** Objects like window, location, and setTimeout are host objects; they are provided by the browser environment, and we do not have access to them when we're running our code in a different environment, like Node. 
   - **Source:** https://stackoverflow.com/questions/7614317/what-is-the-difference-between-native-objects-and-host-objects
-- [ ] Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
-  - **Explanation:**
-  - **Use:**
+- [x] Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+  - **Explanation:** Since the convention is to capitalize the names of constructor functions, I would expect `function Person(){}` to be a constructor function and use `this` to define the properties of the object.   
+  - **Use:** `var person = new Person()` correctly calls the Person() constructor with the `new` keyword, and returns an instance of the Person object that inherits the properties of `Person.prototype`. 
+     - `var person = Person()` incorrectly calls Person() as a regular function, so the `person` variable will end up as `undefined`. 
   - **Example:**
-  - **Source:**
+  ```
+    function Person(name) {
+      this.name = name;
+    }
+
+    var person = Person('John');
+    console.log(person); // undefined
+    console.log(person.name); // Uncaught TypeError: Cannot read property 'name' of undefined
+
+    var person = new Person('John');
+    console.log(person); // Person { name: "John" }
+    console.log(person.name); // "John"
+  ```
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
+     - https://www.frontendinterviewhandbook.com/javascript-questions/#difference-between-function-person-var-person--person-and-var-person--new-person
 - [ ] What's the difference between `.call()` and `.apply()`?
   - **Explanation:**
   - **Use:**
