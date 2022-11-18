@@ -694,7 +694,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:**
   - **Source:**
 - [ ] What are the pros and cons of using Promises instead of callbacks?
-  - **Explanation:**
+  - **Explanation:** avoiding callback hell
   - **Use:**
   - **Example:**
   - **Source:**
@@ -709,7 +709,7 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:**
   - **Source:**
 - [ ] What language constructions do you use for iterating over object properties and array items?
-  - **Explanation:**
+  - **Explanation:** 
   - **Use:**
   - **Example:**
   - **Source:**
